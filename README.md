@@ -2,6 +2,35 @@
 ![cover](images/project_cover.jpg)
 ---
 This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool)and Snowflake.
+
+# How It Works ⚙️
+
+1. **Data Loading:**  
+   The original dataset is loaded into Snowflake, generating a base table (for example, I named it DATASET_SUPERSTORE).
+
+2. **Data Transformation with dbt:**  
+   I used dbt to transform, clean, and model the data. Each model is located in the `models/` folder, and the results appear in Snowflake as views or tables, depending on what is defined in `dbt_project.yml`. In my case, the *sales* view contains the transformed data ready for analysis.
+
+3. **Validation and Data Quality:**  
+   Automated tests are run to ensure data quality and consistency.
+
+5. **Data Consumption:**  
+   The transformed data is available for use by data analysis and visualization tools (such as Power BI, Tableau, or directly through queries in Snowflake) to derive insights.
+
+# Data Source 📊  
+The dataset used in this project comes from Kaggle, a leading platform for data analysis and machine learning. You can find it at the following link: [Super Store](https://www.kaggle.com/datasets/itssuru/super-store?resource=download)
+
+# Services, Tools, etc. ☁️💾
+
+- **dbt Core:** To define and execute SQL transformations.  
+- **Snowflake:** As a data warehouse to store transformed data.  
+- **Python & Virtual Environment:** To manage dbt and its dependencies without system conflicts.
+
+# Screenshots 🖼️
+
+## Data visualization in Snowflake
+![Snowflake](images/screenshots/snowflake_screenshot.png)
+
 ## **Español**
 ![cover](images/project_cover.jpg)
 ---
