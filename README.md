@@ -22,6 +22,9 @@ Este proyecto se encarga de transformar y modelar un DataSet utilizando dbt (Dat
 5. *Consumo de Datos:*  
    Los datos transformados están disponibles para ser consumidos por herramientas de análisis y visualizacion de datos (como Power BI, Tableau, o directamente mediante consultas en Snowflake) para obtener insights de los mismos.
 
+# Fuente de datos📊 
+El conjunto de datos utilizado en este proyecto proviene de Kaggle, una plataforma líder en análisis de datos y aprendizaje automático. Puedes encontrarlo en el siguiente enlace: [Super Store](https://www.kaggle.com/datasets/itssuru/super-store?resource=download)
+
 # Servicios, Herramientas, etc ☁️💾
 
 - *dbt Core:* Para definir y ejecutar transformaciones en SQL.  
