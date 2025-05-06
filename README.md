@@ -8,7 +8,7 @@ This project is responsible for transforming and modeling a dataset using dbt (D
 Este proyecto se encarga de transformar y modelar un DataSet utilizando dbt (Data Build Tool) y Snowflake.
 
 # Cómo Funciona ⚙️
---- 
+
 1. *Carga de Datos:*  
    Se carga el dataset original en Snowflake, lo que genera una tabla base (por ejemplo, yo lo nombré DATASET_SUPERSTORE).
 
@@ -31,5 +31,8 @@ El conjunto de datos utilizado en este proyecto proviene de Kaggle, una platafor
 - *Snowflake:* Como data warehouse para almacenar los datos transformados.  
 - *Python & Entorno Virtual:* Para administrar dbt y sus dependencias sin conflictos en el sistema.
 
+# Capturas 🖼️
 
+## Visualización de los datos en Snowflake
+![Snowflake](images/screenshots/snowflake_screenshot.png)
 
