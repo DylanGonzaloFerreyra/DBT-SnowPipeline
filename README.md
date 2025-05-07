@@ -1,7 +1,7 @@
 ## **English**
 ![cover](images/project_cover.jpg)
 ---
-This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool)and Snowflake.
+This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool) and Snowflake.
 
 # How It Works ⚙️
 
